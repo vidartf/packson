@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "packson"
+author = "Vidar Tonaas Fauske"
+author-email = "vidartf@gmail.com"
+home-page = "https://github.com/vidartf/packson"
+
+[tool.flit.scripts]
+    pjmerge = "packson.mergeapp:main"
+    git-pjmergedriver = "packson.mergedriver:main"
